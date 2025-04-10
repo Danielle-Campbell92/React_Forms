@@ -8,10 +8,13 @@ const [token, setToken] = useState(null)
 
   return (
     <>
-    <div className='app-container'>
+    
+    <div className='container'>
+    <div className='backgroundImage'>  
     <h1>Authentication App</h1>
-  <Authenticate token={token}/>
-  <SignUpForm setToken={setToken}/>
+     <Authenticate token={token}/>
+    <SignUpForm setToken={setToken}/>
+     </div>
    </div> 
    </>
   )
