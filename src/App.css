@@ -69,3 +69,8 @@ button:hover {
    height: auto;
    width: auto;
 }
+
+body{
+  background: linear-gradient(hsl(319, 79%, 70%) 0 50%, #00b3ff)
+  
+}
